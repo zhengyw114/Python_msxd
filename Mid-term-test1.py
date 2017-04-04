@@ -61,7 +61,7 @@ for m in range(0,len(score_list)):
     for n in range(0,len(score_list[m])):
         score_list[m][n]=str(score_list[m][n])
     score_list[m]=",".join(score_list[m])
-score_output="/n".join(score_list)
+score_output="\n".join(score_list)
 
 #存成新文件
 with open("export.txt","w",encoding="utf-8") as f2:
